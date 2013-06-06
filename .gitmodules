@@ -1,0 +1,3 @@
+[submodule "casetagram-ios-sdk"]
+	path = casetagram-ios-sdk
+	url = https://github.com/casetagram/casetagram-ios-sdk.git
