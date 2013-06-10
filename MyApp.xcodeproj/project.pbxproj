@@ -28,6 +28,7 @@
 		21897231176041F100E574BC /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21897230176041F100E574BC /* photo.jpg */; };
 		218972381760BE1000E574BC /* CasetagramSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 218972361760BE1000E574BC /* CasetagramSDK.bundle */; };
 		218972391760BE1000E574BC /* CasetagramSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218972371760BE1000E574BC /* CasetagramSDK.framework */; };
+		21DEA0BC1765A3940055CDA8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21DEA0BB1765A3940055CDA8 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		21897230176041F100E574BC /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpg; sourceTree = "<group>"; };
 		218972361760BE1000E574BC /* CasetagramSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = CasetagramSDK.bundle; path = "casetagram-ios-sdk/CasetagramSDK.bundle"; sourceTree = "<group>"; };
 		218972371760BE1000E574BC /* CasetagramSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CasetagramSDK.framework; path = "casetagram-ios-sdk/CasetagramSDK.framework"; sourceTree = "<group>"; };
+		21DEA0BB1765A3940055CDA8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				2189722C17603F5300E574BC /* MobileCoreServices.framework in Frameworks */,
 				2189722D17603F5300E574BC /* QuartzCore.framework in Frameworks */,
 				2189722E17603F5300E574BC /* Social.framework in Frameworks */,
+				21DEA0BC1765A3940055CDA8 /* SystemConfiguration.framework in Frameworks */,
 				2189722F17603F5300E574BC /* Twitter.framework in Frameworks */,
 				218971FB17603E8400E574BC /* UIKit.framework in Frameworks */,
 				218971FD17603E8400E574BC /* Foundation.framework in Frameworks */,
@@ -107,6 +110,7 @@
 				2189722517603F5300E574BC /* MobileCoreServices.framework */,
 				2189722617603F5300E574BC /* QuartzCore.framework */,
 				2189722717603F5300E574BC /* Social.framework */,
+				21DEA0BB1765A3940055CDA8 /* SystemConfiguration.framework */,
 				2189722817603F5300E574BC /* Twitter.framework */,
 				218972361760BE1000E574BC /* CasetagramSDK.bundle */,
 				218972371760BE1000E574BC /* CasetagramSDK.framework */,
@@ -352,6 +356,7 @@
 				2189721C17603E8400E574BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -6,7 +6,7 @@ This is a sample project for the [Casetagram iOS SDK](https://github.com/casetag
 Requirements
 ------------
 
-* Xcode 4.6 and iOS SDK 5.0 or above
+* Xcode 4.6 and iOS SDK 6.0 or above
 * iPhone, iPad and iOS Simulator are supported
 * iOS 5.0 or above, retina display preferred
 
