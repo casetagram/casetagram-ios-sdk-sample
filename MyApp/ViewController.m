@@ -37,8 +37,9 @@
 	[CTGManager setClientID:@"MyAppClientIDxxxxxxx"];
 	[CTGManager setClientSecret:@"MyAppClientSecretxxxxxxxxxxxxxxxxxxxxxxx"];
 	[CTGManager setRedirectURI:@"myapp://redirect"];
+	[CTGManager setSkipMoveAndScale:NO];
+	[CTGManager setCaseName:@"Designed with MyApp"];
 	[CTGManager setImage:[UIImage imageNamed:@"photo.jpg"]];
-	[CTGManager setSkipMoveAndScale:YES];
 	
 	UIViewController *vc = [CTGManager newCasetagramViewController];
 	[self presentModalViewController:vc animated:YES];

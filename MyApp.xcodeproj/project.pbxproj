@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		216B5B6F187D530900428C3B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216B5B6E187D530900428C3B /* Accelerate.framework */; };
 		218971FB17603E8400E574BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218971FA17603E8400E574BC /* UIKit.framework */; };
 		218971FD17603E8400E574BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218971FC17603E8400E574BC /* Foundation.framework */; };
 		218971FF17603E8400E574BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218971FE17603E8400E574BC /* CoreGraphics.framework */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		216B5B6E187D530900428C3B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		218971F717603E8400E574BC /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		218971FA17603E8400E574BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		218971FC17603E8400E574BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				216B5B6F187D530900428C3B /* Accelerate.framework in Frameworks */,
 				2189722917603F5300E574BC /* CoreImage.framework in Frameworks */,
 				2189722A17603F5300E574BC /* ImageIO.framework in Frameworks */,
 				2189722B17603F5300E574BC /* MessageUI.framework in Frameworks */,
@@ -104,6 +107,7 @@
 		218971F917603E8400E574BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				216B5B6E187D530900428C3B /* Accelerate.framework */,
 				2189722217603F5300E574BC /* CoreImage.framework */,
 				2189722317603F5300E574BC /* ImageIO.framework */,
 				2189722417603F5300E574BC /* MessageUI.framework */,
