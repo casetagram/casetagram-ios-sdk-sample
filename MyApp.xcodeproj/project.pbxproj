@@ -27,9 +27,9 @@
 		2189722E17603F5300E574BC /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2189722717603F5300E574BC /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		2189722F17603F5300E574BC /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2189722817603F5300E574BC /* Twitter.framework */; };
 		21897231176041F100E574BC /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21897230176041F100E574BC /* photo.jpg */; };
-		218972381760BE1000E574BC /* CasetagramSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 218972361760BE1000E574BC /* CasetagramSDK.bundle */; };
-		218972391760BE1000E574BC /* CasetagramSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218972371760BE1000E574BC /* CasetagramSDK.framework */; };
 		21DEA0BC1765A3940055CDA8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21DEA0BB1765A3940055CDA8 /* SystemConfiguration.framework */; };
+		7A831C3B193DF2BA00AC8A05 /* CasetifySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7A831C39193DF2BA00AC8A05 /* CasetifySDK.bundle */; };
+		7A831C3C193DF2BA00AC8A05 /* CasetifySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A831C3A193DF2BA00AC8A05 /* CasetifySDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,9 +58,9 @@
 		2189722717603F5300E574BC /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		2189722817603F5300E574BC /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		21897230176041F100E574BC /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpg; sourceTree = "<group>"; };
-		218972361760BE1000E574BC /* CasetagramSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = CasetagramSDK.bundle; path = "casetagram-ios-sdk/CasetagramSDK.bundle"; sourceTree = "<group>"; };
-		218972371760BE1000E574BC /* CasetagramSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CasetagramSDK.framework; path = "casetagram-ios-sdk/CasetagramSDK.framework"; sourceTree = "<group>"; };
 		21DEA0BB1765A3940055CDA8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7A831C39193DF2BA00AC8A05 /* CasetifySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = CasetifySDK.bundle; path = "casetagram-ios-sdk/CasetifySDK.bundle"; sourceTree = "<group>"; };
+		7A831C3A193DF2BA00AC8A05 /* CasetifySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CasetifySDK.framework; path = "casetagram-ios-sdk/CasetifySDK.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,12 +75,12 @@
 				2189722C17603F5300E574BC /* MobileCoreServices.framework in Frameworks */,
 				2189722D17603F5300E574BC /* QuartzCore.framework in Frameworks */,
 				2189722E17603F5300E574BC /* Social.framework in Frameworks */,
+				7A831C3C193DF2BA00AC8A05 /* CasetifySDK.framework in Frameworks */,
 				21DEA0BC1765A3940055CDA8 /* SystemConfiguration.framework in Frameworks */,
 				2189722F17603F5300E574BC /* Twitter.framework in Frameworks */,
 				218971FB17603E8400E574BC /* UIKit.framework in Frameworks */,
 				218971FD17603E8400E574BC /* Foundation.framework in Frameworks */,
 				218971FF17603E8400E574BC /* CoreGraphics.framework in Frameworks */,
-				218972391760BE1000E574BC /* CasetagramSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +107,8 @@
 		218971F917603E8400E574BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7A831C39193DF2BA00AC8A05 /* CasetifySDK.bundle */,
+				7A831C3A193DF2BA00AC8A05 /* CasetifySDK.framework */,
 				216B5B6E187D530900428C3B /* Accelerate.framework */,
 				2189722217603F5300E574BC /* CoreImage.framework */,
 				2189722317603F5300E574BC /* ImageIO.framework */,
@@ -116,8 +118,6 @@
 				2189722717603F5300E574BC /* Social.framework */,
 				21DEA0BB1765A3940055CDA8 /* SystemConfiguration.framework */,
 				2189722817603F5300E574BC /* Twitter.framework */,
-				218972361760BE1000E574BC /* CasetagramSDK.bundle */,
-				218972371760BE1000E574BC /* CasetagramSDK.framework */,
 				218971FA17603E8400E574BC /* UIKit.framework */,
 				218971FC17603E8400E574BC /* Foundation.framework */,
 				218971FE17603E8400E574BC /* CoreGraphics.framework */,
@@ -208,9 +208,9 @@
 				2189720D17603E8400E574BC /* Default.png in Resources */,
 				2189720F17603E8400E574BC /* Default@2x.png in Resources */,
 				2189721117603E8400E574BC /* Default-568h@2x.png in Resources */,
+				7A831C3B193DF2BA00AC8A05 /* CasetifySDK.bundle in Resources */,
 				2189721717603E8400E574BC /* ViewController.xib in Resources */,
 				21897231176041F100E574BC /* photo.jpg in Resources */,
-				218972381760BE1000E574BC /* CasetagramSDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,16 +308,20 @@
 		2189721B17603E8400E574BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
 					"\"$(SRCROOT)/casetagram-ios-sdk\"",
+					"$(PROJECT_DIR)/casetagram-ios-sdk",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyApp/MyApp-Prefix.pch";
 				INFOPLIST_FILE = "MyApp/MyApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -326,16 +330,20 @@
 		2189721C17603E8400E574BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
 					"\"$(SRCROOT)/casetagram-ios-sdk\"",
+					"$(PROJECT_DIR)/casetagram-ios-sdk",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyApp/MyApp-Prefix.pch";
 				INFOPLIST_FILE = "MyApp/MyApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};

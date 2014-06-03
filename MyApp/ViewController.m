@@ -8,9 +8,9 @@
 
 #import "ViewController.h"
 
-#import <CasetagramSDK/CasetagramSDK.h>
+#import <CasetifySDK/CasetifySDK.h>
 
-@interface ViewController () <CasetagramSDKDelegate>
+@interface ViewController () <CasetifySDKDelegate>
 
 @end
 
@@ -33,24 +33,24 @@
 
 - (void)start
 {
-	[CTGManager setDelegate:self];
-	[CTGManager setClientID:@"MyAppClientIDxxxxxxx"];
-	[CTGManager setClientSecret:@"MyAppClientSecretxxxxxxxxxxxxxxxxxxxxxxx"];
-	[CTGManager setRedirectURI:@"myapp://redirect"];
-	[CTGManager setSkipMoveAndScale:NO];
-	[CTGManager setCaseName:@"Designed with MyApp"];
-	[CTGManager setImage:[UIImage imageNamed:@"photo.jpg"]];
+	[CTFManager setDelegate:self];
+	[CTFManager setClientID:@"MyAppClientIDxxxxxxx"];
+	[CTFManager setClientSecret:@"MyAppClientSecretxxxxxxxxxxxxxxxxxxxxxxx"];
+	[CTFManager setRedirectURI:@"myapp://redirect"];
+	[CTFManager setSkipMoveAndScale:NO];
+	[CTFManager setCaseName:@"Designed with MyApp"];
+	[CTFManager setImage:[UIImage imageNamed:@"photo.jpg"]];
 	
-	UIViewController *vc = [CTGManager newCasetagramViewController];
+	UIViewController *vc = [CTGManager newCasetifyViewController];
 	[self presentModalViewController:vc animated:YES];
 }
 
-- (void)casetagramSDKOrderCompleted
+- (void)casetifySDKOrderCompleted
 {
 	[self dismissModalViewControllerAnimated:YES];
 }
 
-- (void)casetagramSDKUserCancelled
+- (void)casetifySDKUserCancelled
 {
 	[self dismissModalViewControllerAnimated:YES];
 }
