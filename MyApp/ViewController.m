@@ -36,7 +36,7 @@
 	[CTFManager setDelegate:self];
 	[CTFManager setClientID:@"MyAppClientIDxxxxxxx"];
 	[CTFManager setClientSecret:@"MyAppClientSecretxxxxxxxxxxxxxxxxxxxxxxx"];
-	[CTFManager setRedirectURI:@"myapp://redirect"];
+	[CTFManager setRedirectURI:@"http://xxxxxxxxxxx.com"];
 	[CTFManager setSkipMoveAndScale:NO];
 	[CTFManager setCaseName:@"Designed with MyApp"];
 	[CTFManager setImage:[UIImage imageNamed:@"photo.jpg"]];
